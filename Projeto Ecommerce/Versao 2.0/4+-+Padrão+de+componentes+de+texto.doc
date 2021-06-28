@@ -1,0 +1,936 @@
+Date: Wed, 23 Jun 2021 19:46:25 +0000 (UTC)
+Message-ID: <495794968.9.1624477585059@2b2f2c83c480>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_8_431892443.1624477585058"
+
+------=_Part_8_431892443.1624477585058
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>4 - Padr=C3=A3o de componentes de texto</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>4 - Padr=C3=A3o de componentes de texto</h1>
+    <div class=3D"Section1">
+        <p><strong>RF 4 Padr=C3=A3o de componentes de texto</strong></p>
+<p></p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 340.0px;">
+<col style=3D"width: 340.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><p><strong>Refer=C3=AAncia da Proposta</strong><=
+/p></td>
+<td class=3D"confluenceTd"><p><strong>RF 4 Padr=C3=A3o de componentes de te=
+xto</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>Tipo de Requisito</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>[ ] Funcional / [ &nbsp;] N=C3=A3o Fu=
+ncional / [X] De Interface</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>N=C3=ADvel de Detalhe</strong></p></t=
+d>
+<td class=3D"confluenceTd"><p><strong>Sistema</strong></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 145.0px;">
+<col style=3D"width: 615.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><p><strong>Descri=C3=A7=C3=A3o Geral</strong></p=
+></td>
+<td class=3D"confluenceTd"><p>Sera criado um form chamado FrmPadrao onde va=
+i ficar todos os modelos de edits de texto, para ser vinculado.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 111.0px;">
+<col style=3D"width: 647.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><p><strong>Descri=C3=A7=C3=A3o</strong></p></td>
+<td class=3D"confluenceTd"><p>TAdvCombobox - Componente de Sele=C3=A7=C3=A3=
+o</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<span class=3D"confluence-embedded-file-wrapper image-left-wrapper confluen=
+ce-embedded-manual-size"><img class=3D"confluence-embedded-image image-left=
+" width=3D"170" loading=3D"lazy" src=3D"342e5dc7187cfc442f773f13d9b8998e" d=
+ata-image-src=3D"https://ajxautomacao.atlassian.net/wiki/download/attachmen=
+ts/213745769/image-20210607-192717.png?version=3D1&amp;modificationDate=3D1=
+623094040599&amp;cacheVersion=3D1&amp;api=3Dv2" data-height=3D"53" data-wid=
+th=3D"148" data-unresolved-comment-count=3D"0" data-linked-resource-id=3D"2=
+13778527" data-linked-resource-version=3D"1" data-linked-resource-type=3D"a=
+ttachment" data-linked-resource-default-alias=3D"image-20210607-192717.png"=
+ data-base-url=3D"https://ajxautomacao.atlassian.net/wiki" data-linked-reso=
+urce-content-type=3D"image/png" data-linked-resource-container-id=3D"213745=
+769" data-linked-resource-container-version=3D"33" data-media-id=3D"6b58fe4=
+2-a9b6-462a-a69e-4fbdd563be17" data-media-type=3D"file" height=3D"61"></spa=
+n>
+<p>Figura 01 - Componente TAdvCombobox</p>
+<p></p>
+<p>Tabela 01 - Propriedades</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 191.0px;">
+<col style=3D"width: 568.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><p><strong>Propriedade</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Valor</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Font</p></td>
+<td class=3D"confluenceTd"><p>Arial,11,[],DEFAULT_CHARSET,clWindowText</p><=
+/td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>LabelFont</p></td>
+<td class=3D"confluenceTd"><p>Segoe UI,11,[B],DEFAULT_CHARSET,clWindowText<=
+/p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>LabelMargin</p></td>
+<td class=3D"confluenceTd"><p>1</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 106.0px;">
+<col style=3D"width: 652.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><p><strong>Descri=C3=A7=C3=A3o</strong></p></td>
+<td class=3D"confluenceTd"><p>TAdvMaskEdit Componente de Edi=C3=A7=C3=A3o p=
+r=C3=A9 - formatado</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<span class=3D"confluence-embedded-file-wrapper image-left-wrapper"><img cl=
+ass=3D"confluence-embedded-image image-left" loading=3D"lazy" src=3D"3df31e=
+0ab80514f275add3f56989fda9" data-image-src=3D"https://ajxautomacao.atlassia=
+n.net/wiki/download/attachments/213745769/image-20210607-193016.png?version=
+=3D1&amp;modificationDate=3D1623094219771&amp;cacheVersion=3D1&amp;api=3Dv2=
+" data-height=3D"64" data-width=3D"188" data-unresolved-comment-count=3D"0"=
+ data-linked-resource-id=3D"213713076" data-linked-resource-version=3D"1" d=
+ata-linked-resource-type=3D"attachment" data-linked-resource-default-alias=
+=3D"image-20210607-193016.png" data-base-url=3D"https://ajxautomacao.atlass=
+ian.net/wiki" data-linked-resource-content-type=3D"image/png" data-linked-r=
+esource-container-id=3D"213745769" data-linked-resource-container-version=
+=3D"33" data-media-id=3D"9b3f6601-64ca-4c3b-acbd-765fc038f6cc" data-media-t=
+ype=3D"file" width=3D"169" height=3D"58"></span>
+<p>Figura 02 - Componente TAdvmaskedit</p>
+<p></p>
+<p>Tabela 02 - Propriedades</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 191.0px;">
+<col style=3D"width: 568.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><p><strong>Propriedade</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Valor</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Font</p></td>
+<td class=3D"confluenceTd"><p>Arial,11,[],DEFAULT_CHARSET,clWindowText</p><=
+/td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>LabelFont</p></td>
+<td class=3D"confluenceTd"><p>Segoe UI,11,[B],DEFAULT_CHARSET,clWindowText<=
+/p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>LabelMargin</p></td>
+<td class=3D"confluenceTd"><p>1</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<p></p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 132.0px;">
+<col style=3D"width: 626.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><p><strong>Descri=C3=A7=C3=A3o</strong></p></td>
+<td class=3D"confluenceTd"><p>TAdvEdit - Componente de Edi=C3=A7=C3=A3o </p=
+></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<span class=3D"confluence-embedded-file-wrapper image-left-wrapper confluen=
+ce-embedded-manual-size"><img class=3D"confluence-embedded-image image-left=
+" width=3D"340" loading=3D"lazy" src=3D"f70f75a344f79f7fdfb318ce7bbec704" d=
+ata-image-src=3D"https://ajxautomacao.atlassian.net/wiki/download/attachmen=
+ts/213745769/image-20210607-192925.png?version=3D1&amp;modificationDate=3D1=
+623094168290&amp;cacheVersion=3D1&amp;api=3Dv2" data-height=3D"57" data-wid=
+th=3D"427" data-unresolved-comment-count=3D"0" data-linked-resource-id=3D"2=
+13778541" data-linked-resource-version=3D"1" data-linked-resource-type=3D"a=
+ttachment" data-linked-resource-default-alias=3D"image-20210607-192925.png"=
+ data-base-url=3D"https://ajxautomacao.atlassian.net/wiki" data-linked-reso=
+urce-content-type=3D"image/png" data-linked-resource-container-id=3D"213745=
+769" data-linked-resource-container-version=3D"33" data-media-id=3D"6d8245e=
+e-5fb7-45f5-a3eb-c8c47795af46" data-media-type=3D"file" height=3D"45"></spa=
+n>
+<p>Figura 03 - Componente TAdvEdit</p>
+<p></p>
+<p>Tabela 03 - Propriedades</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 191.0px;">
+<col style=3D"width: 568.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><p><strong>Propriedade</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Valor</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Font</p></td>
+<td class=3D"confluenceTd"><p>Arial,11,[],DEFAULT_CHARSET,clWindowText</p><=
+/td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>LabelFont</p></td>
+<td class=3D"confluenceTd"><p>Segoe UI,11,[B],DEFAULT_CHARSET,clWindowText<=
+/p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>LabelMargin</p></td>
+<td class=3D"confluenceTd"><p>1</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 111.0px;">
+<col style=3D"width: 647.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><p><strong>Descri=C3=A7=C3=A3o</strong></p></td>
+<td class=3D"confluenceTd"><p>TAdvSmoothDataPicker Componente de data</p></=
+td>
+</tr>
+</tbody>
+</table>
+</div>
+<span class=3D"confluence-embedded-file-wrapper image-left-wrapper"><img cl=
+ass=3D"confluence-embedded-image image-left" loading=3D"lazy" src=3D"41c8ca=
+fb7d7e991c39de6a35c9482ef0" data-image-src=3D"https://ajxautomacao.atlassia=
+n.net/wiki/download/attachments/213745769/image-20210607-193115.png?version=
+=3D1&amp;modificationDate=3D1623094278297&amp;cacheVersion=3D1&amp;api=3Dv2=
+" data-height=3D"58" data-width=3D"297" data-unresolved-comment-count=3D"0"=
+ data-linked-resource-id=3D"213811300" data-linked-resource-version=3D"1" d=
+ata-linked-resource-type=3D"attachment" data-linked-resource-default-alias=
+=3D"image-20210607-193115.png" data-base-url=3D"https://ajxautomacao.atlass=
+ian.net/wiki" data-linked-resource-content-type=3D"image/png" data-linked-r=
+esource-container-id=3D"213745769" data-linked-resource-container-version=
+=3D"33" data-media-id=3D"bd752b71-6d97-45b3-a1f2-f42cbc8667bf" data-media-t=
+ype=3D"file" width=3D"267" height=3D"51"></span>
+<p>Figura 04 - Componente TAdvSmoothDataPicker </p>
+<p></p>
+<p>Tabela 04 - Propriedades</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 191.0px;">
+<col style=3D"width: 568.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><p><strong>Propriedade</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Valor</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Font</p></td>
+<td class=3D"confluenceTd"><p>Arial,11,[],DEFAULT_CHARSET,clWindowText</p><=
+/td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>LabelFont</p></td>
+<td class=3D"confluenceTd"><p>Segoe UI,11,[B],DEFAULT_CHARSET,clWindowText<=
+/p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>LabelMargin</p></td>
+<td class=3D"confluenceTd"><p>1</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 111.0px;">
+<col style=3D"width: 647.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><p><strong>Descri=C3=A7=C3=A3o</strong></p></td>
+<td class=3D"confluenceTd"><p>TDBAbvGrid Componente de tabela</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<span class=3D"confluence-embedded-file-wrapper image-center-wrapper conflu=
+ence-embedded-manual-size"><img class=3D"confluence-embedded-image image-ce=
+nter" width=3D"468" loading=3D"lazy" src=3D"3efe46098cee833194b9ab95c5d8147=
+e" data-image-src=3D"https://ajxautomacao.atlassian.net/wiki/download/attac=
+hments/213745769/image-20210607-193259.png?version=3D1&amp;modificationDate=
+=3D1623094382815&amp;cacheVersion=3D1&amp;api=3Dv2" data-height=3D"151" dat=
+a-width=3D"903" data-unresolved-comment-count=3D"0" data-linked-resource-id=
+=3D"213745802" data-linked-resource-version=3D"1" data-linked-resource-type=
+=3D"attachment" data-linked-resource-default-alias=3D"image-20210607-193259=
+.png" data-base-url=3D"https://ajxautomacao.atlassian.net/wiki" data-linked=
+-resource-content-type=3D"image/png" data-linked-resource-container-id=3D"2=
+13745769" data-linked-resource-container-version=3D"33" data-media-id=3D"bf=
+82a20b-b88c-4c08-b918-ff6328c5def8" data-media-type=3D"file" height=3D"78">=
+</span>
+<p>Figura 05 - Componente TDBAbvGrid</p>
+<p></p>
+<p>Tabela 05 - Propriedades</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 178.0px;">
+<col style=3D"width: 581.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><p><strong>Propriedade</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Valor</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Font</p></td>
+<td class=3D"confluenceTd"><p>Arial,11,[],DEFAULT_CHARSET,clWindowText</p><=
+/td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>FixedFont</p></td>
+<td class=3D"confluenceTd"><p>Arial,9,[B],DEFAULT_CHARSET,clWindowText</p><=
+/td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>ActiveCellfont</p></td>
+<td class=3D"confluenceTd"><p>Tahoma,8,[B],DEFAULT_CHARSET,clWindowText</p>=
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 111.0px;">
+<col style=3D"width: 647.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><p><strong>Descri=C3=A7=C3=A3o</strong></p></td>
+<td class=3D"confluenceTd"><p>TrzMemo - Componente para texto extenso</p></=
+td>
+</tr>
+</tbody>
+</table>
+</div>
+<span class=3D"confluence-embedded-file-wrapper image-center-wrapper"><img =
+class=3D"confluence-embedded-image image-center" loading=3D"lazy" src=3D"28=
+463934200d50190a240dc9f7d81615" data-image-src=3D"https://ajxautomacao.atla=
+ssian.net/wiki/download/attachments/213745769/image-20210607-200300.png?ver=
+sion=3D1&amp;modificationDate=3D1623096184429&amp;cacheVersion=3D1&amp;api=
+=3Dv2" data-height=3D"168" data-width=3D"907" data-unresolved-comment-count=
+=3D"0" data-linked-resource-id=3D"213811331" data-linked-resource-version=
+=3D"1" data-linked-resource-type=3D"attachment" data-linked-resource-defaul=
+t-alias=3D"image-20210607-200300.png" data-base-url=3D"https://ajxautomacao=
+.atlassian.net/wiki" data-linked-resource-content-type=3D"image/png" data-l=
+inked-resource-container-id=3D"213745769" data-linked-resource-container-ve=
+rsion=3D"33" data-media-id=3D"fef68fc0-13b2-47fd-be4b-28004d78846d" data-me=
+dia-type=3D"file" width=3D"468" height=3D"86"></span>
+<p>Figura 06 - Componente TrzMemo</p>
+<p></p>
+<p>Tabela 06 - Propriedades</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 191.0px;">
+<col style=3D"width: 568.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><p><strong>Propriedade</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Valor</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Font</p></td>
+<td class=3D"confluenceTd"><p>Arial,11,[],DEFAULT_CHARSET,clWindowText</p><=
+/td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>LabelFont</p></td>
+<td class=3D"confluenceTd"><p>Segoe UI,11,[B],DEFAULT_CHARSET,clWindowText<=
+/p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>ScrollBars</p></td>
+<td class=3D"confluenceTd"><p>ssVertical</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>LabelMargin</p></td>
+<td class=3D"confluenceTd"><p>1</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_8_431892443.1624477585058
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/342e5dc7187cfc442f773f13d9b8998e
+
+iVBORw0KGgoAAAANSUhEUgAAAIUAAAAwCAYAAAA/3bn6AAAEpklEQVR4nO3aTUgbaRzH8e+TZHs0
+bbKnxpU26i6l0HRxpMTmIkLITaFBu2217K7VKtpzqb1VfDsqiIonXba65iwakEIJ9ZKD0tOCm8OS
+XLpM0Hb3VM3sIXU22bE2GtO46/8DgcnM8zzzqD+f55kXZRiGgRA5bOXugDh9JBTCQkIhLFRfX5+x
+vr7+0QLhcBiASCSC3+9nYmLic/VNlImMFMJC5V599Pf3s76+Tjgc5vHjx+XslyijgkaKkZERNE2j
+v78fgGg0iqZpaJpGKpUytzVNs9RtaWnJOz43N3eyP4E4cUVPH83NzXnfW1paAMywJJPJvOPj4+MS
+jFOu6FAMDQ0Rj8eZnZ0FIJlMsrGxwfz8vFkmHo8Tj8d59OgRkA2GOL2KCkVlZSXBYBCA69evm/vf
+vHlDKpUCMIMA0NTUZG5vbGwUc2pRQnL1ISyKCsX+VAHZxee+q1ev4vF4gPypYm1tzdzOHVnE6eIo
+toHOzs68736/H4/HQ3t7O5FIBMByVZI7pYjT50QWmvty73h6PB7i8fiB5Ts6Ooo9rSghdZxH59Fo
+lCdPngAc+IcX/22OTCbDXiZzpEq7e3vm9vvd3ZPukyiTLxzZ1YQjvb1Densbu63wmURPp83t35Op
+E++c+Pze7+7yTbUXpRTqDz1tgMGXLle5+yXK6NffEnztvYxSSu5TCCsJhbCQUAgLCYWwODQUsVgs
+uxr98BkbGztS47quU1NTg67rBx4fGxsz2wyFQsRisSO1L0rj0NvcgUCA/XtbRw0EgNvtZmtrq6Cy
+KysrR25flMaRp49YLEYoFMrbp5Qy/8uVUiwsLOD6cImrlDLL7e9XStHb28vOzo55LHekWFhYoKam
+BqUU9fX1LC8vo+s6AwMDZv1QKPTREeise774C/fuf0/rd3fzPnfa7/PTz88/Wb8ka4qXL1+SzrnB
+Bdkw9fb28uLFCwzDoLu7m8XFRUvdWCzG06dPiUajGIbB7OwsFRUVuN1uWltbSafTGIZBXV2d+cBN
+5GsN3+Jbnw+73W7us9ls+K5dozV865P1SxKKZ8+eWfa9evWKnp4efD4fAD6fz3xB59/lurq68Hq9
+ZrlAIICu6wwPD5vrm6GhobyRRvzDbrfT2fkDVVVfmb+vykoPXZ0/cu7cuU/WL0ko3G73gfudTuex
+24xEIrhcLgzDwDAMRkdHj93WWeCsqOBh1wNcFy7gdDp52PWA8+cL+/0fGoqBgQFz3l5aWqKqqoqL
+Fy+yurrK5uYmkJ3/C9HQ0MDIyAiJRAKAzc3NvBdzcsvNzMyY5RKJhHmO/SlJ13WWlpYKOu9ZdvnS
+Je7dvUPHvbtUe71567vDHBoKp9NJbW0tSimCwSC3b9/G6/UyNTVFY2MjSilev35d0IkCgQCTk5No
+moZSiunpadra2g4sNzg4SDAYRClFW1sbV65cIRwOs729jVKKGzduUF1dXdB5z7qbDX4CNxsKDgQg
+D8REljwQE4eSUAgLCYWwcABkMhl5rU6YHDabjZ23b3n351/l7osoI0fO3c9jvc0t/t9kTSEsJBTC
+QkIhLCQUwkJCISwkFMJCQiEsJBTCQkIhLCQUwuJv712KOHGNh4UAAAAASUVORK5CYII=
+------=_Part_8_431892443.1624477585058
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/28463934200d50190a240dc9f7d81615
+
+iVBORw0KGgoAAAANSUhEUgAAAzAAAACXCAYAAADK+b7QAAAWLUlEQVR4Ae3d7Y0dN7YFUOXkOJyH
+43AY/uUU7BQMGErBPwWHoAA02J7ZwhFZt2+r+0pDWWsAoapY/DhcPN1FSvPevHn//v0HfxjIATkg
+B+SAHJADckAOyAE58C3kwJtvIUgx+mGSA3JADsgBOSAH5IAckANyIDngAONfoPwLnByQA3JADsgB
+OSAH5IAc+GZywAFGsn4zyepvXfytixyQA3JADsgBOSAH5MAnB5iff/75ww8//PDJn7/++uuTDW7f
+//bbb5+Uf8vJ9OOPP/4z519++eVD5ps5PmI+7fdEq671Tz/99JC5PsKruTWvv/766yf5ON/1PmPX
+umW9Zk0b259//vmxrzWvW+cR1zlO48g1Mab/xNTyGV/ezbaJMevTulfXrONsM+tcjXf1/hFz/jf0
+kZ/T+vw/5vPan8k1/vX5OXN6SZvZb9uf9HtlxufepkcOyAE58O/IgY8HmH64r65zk9X3+VD9G5Ig
+m79u9LpZzEbitXPrJnXavbbPR7Z/7WbpkbF009PcmtfXHmDSV9dgbvRPOcAkvhnLGmNzcprM+9cc
+YNJPc/+R6/mt9jXz8P8xh9f+TK7xr8/PmdNL2qz9nv67b43X879jM2MdraMc+L5y4J8DzNwkZQPV
+JLgq7+YpH7rWc92Tpk5sdptpMjfs62Y6G6G5uX9qc5W2Me9hJWN0DZLHeZ5jzX5nPI+4vzdON3hr
+fPdi7M/jesB+7njTt5vlxPAlLR7h+bX6eCq/vkYMXZPm6+eO+Yj4H9FH4m5uf+4c1H/69yUfPnJA
+DsiB/+bAm2xe+rGZm78C9V03TX3Oh64bqpTNtvMj2PrtL9eW9dp38wPe+15TtxutGXPGuhpvxpP+
+b20a5xwaT8dpXGvbuRFsnXltPDXLu84j4/V9xpublVne+85jblLXdum/sfea9ilf59eYZjyNfbq2
+n4zb97NN47uK5V6s7W/Gd880deeYs4/cXx1gOvcaz7jWNV77W5879nPa3Run+dSYY9j1eqpt59M1
+bIxPtUmdOV7bdD4Z+9acmgOp27FnrOlrlrf+7K9lHS9zzvuW99o1anzrdW3T/tI+da/mOPN19tcx
+e+272ec6Xuc06/Q+Y6/10/e9ObV96sblc+Nt3L3O/lK2Pqesc867uXZ5XtvMvEp8Hec5c23f7bdt
+XW2+5IAckANy4BE58GZ+5PqRnh33Q9QPWD+AV9d88GZ/s077nGXzPu/7AZ/lv//++ycf3dSbY+S5
+m5fZLvf9eF71281F5rW2y3Pj7fzXOvVovXnteB0/71q29pPnvEudOa/Wy9zmRqLluXYOs6z36esq
+9o7VeNrH1djtK+Pfm0Pnei/W6ZT7jpF5ru/W5xnj+q7r2H7mJqtlM7arXF/7nM8d+znt5jidX661
+Tzx5TsztN88Zb7Zdx+p6tp/GN9vcG69t2tdTeTz7Wu8zZvqq+/q+46zlqX8v3rbtda7l2l+eU2+a
+tt2a4ym/at8+5lqs9ep0VSdjf+6crvrpmP2ZvBdv59nr7DNl6/NT/T3H4OrnqDHnOvOy6zHLGqer
+zYsckANyQA68NgfuHmC6CegHvB+sq49s6vbD1fozwPY126Ze+szHtu/zPDdv3WzlffprvT7PMeb7
+tJubn36AU2fez/adX+KZm5I8p97sr2Wzfe4bbzd5KWvMc261SlnqpL85fvutUWOeMfzxxx8f28zx
+0nZt1/5ybTxdi9btc+p0Hi1rm8abOo23a9F+rmKda9pY2r71W351nT7r+47b/npt7Kk/1/MqlrXP
++dyxn9NujtM4cq1R1z0xZ4w65/1su441683YZpunxpvver+OMfttnWlY585l1s992/Rno8+zj7VN
+bVN3fZfnjNV++n4tW01nu47dNn1Onc4nMcw4Gv8si/N8bp3GNK+z3izvfce9iqVl9+JtX72uY67P
+qVfH9J3nWWedX55TJ/GkXePqeL3OPlrWnLzVpvVcbWLkgByQA3LgJTlw9wCzfrz6AezHLYPOD20/
+XK2XawNrX/Nd7/MRnP20Ta79QHbD149/Y8gmrP3Ma8Zb285+c9+Nz2yX+7S71bbz6CZg7bPvG1/e
+d26zzbTKHDpexp99rrHN57SrR8vTzxyz5XPsxpNYU7d1ZsxrPGubtOtc23f7ubpebZZb70scYJov
+tVy9W37rOus3znl9TrurOTfnGl/qtN9pvrZdrTv+jHNtkzodr2P0Ote6fc3rVb01B2713RxsH31u
+/2vOtl7fz2vnPXNkzjl1G0dNU7bG2n461rwmvtrPPtJP6806KZsx5v5z5tQ+5xp0Dokz/d2Ldx2/
+8Te29Tn1O27e5XnmXmK5atO4psu9uXZ9Opc1Vs82LHJADsgBOfCaHHjx/w3M/PCuG4X5UewHM2X9
+IHezuwa+9tP3s79+GOfHtGO0rB/cjNcPct+1z1z7Lu3TJmX9MOdd369t782j76+M5tw7l4yfOXa8
+PM84O7+8n+XzvmO2budTi5anXtqt1n0/Y17jWdukn47bebWfp2Kdcdd7NZ51er/G0/Jc20/n3efO
+N3VW79n+3n3Hzjrdq3tvnK7JnPMsq+E61mrdOD53vI6VcdYx2meujWPmxMyBmqTe6t71bx99Tr+d
+R8ef8c/xe9/6HSPla5vOaZrOWOe4zdX232vnM/vIuzmH1klZ2+XaGJ87p/Y5bTuH9DX7vBXvHD/3
+a2zrc+p03LzLc9a/ZYnlqk3jqstz5tr16VzWWD3buMgBOSAH5MBrcuDZ/1/IutHpx25+VFs2NxgN
+qu/yYeyGImXtL/XaV99fffT60ey1beYHuGPmQ5sxUrcf0jzP+HLfD3P7mnUT7/qc/ud43QR03F47
+j/m+ZYljrdeNQern/ayTup1P66Usccz5rH2uhmvfjaf1Okaf01/uE0vL1jazTt7luf08J9bU7xrM
+cVKeP+lz5sk6h9bLtePW5GrtZtnsd/Zz675jP6fdvXE652k059AcWMfqetS6sb5kvHp1bdvXvDaO
+OV7LMofOo+9nHPFKX63f55R17NTPc9q33hy/91fva5F2qddY+pyyjtM5zn6mbePvGqePxjbL0mY+
+N745VtvNsWa93je2jp3yGjw33vbV6xrb+jzHyLs8Z04dN7FftaltYk6bxv7UXNvPnF/jdLVpkQNy
+QA7IgdfmwLP+d2D6sctg/dhdXfMx7MdufZ93+eCt5XleP9h9npPrB7Ht+/GcH+C+67X95NqyXlN2
+K9bU6Zyv2uZ9P+Yzxt431vnxnhuaxtBr4kjbtkt5+8r1VpwpvzX/vOtGo+PkWpPG0+c59qyf+1qv
+bRJbfTrXp2Kdc5r37WMdN8+ZX+vOGFvWa+ea8VvWeNvPrfzr+7a7unbsGc9VvZTdG6dGaw6t7dax
+6lTrjr+2m47p42q82Waatc9cZz/r/ex3fZfneM0++pyyrtVVuzl+72est9o8Vac5fqtO33eNr8a4
+qtP4XjKnrslTY92Ld46f+xn/1XPKOl7XI+vYsoy39pE2jbX5+pz1689ex0k//jCQA3JADsiBR+XA
+xwNMOuxHpx+0XNeB+m5+6FLWzVY/dq0336Wv+cFsnX7kOn43C3Ps2a4f0r6fsaSPq35a1jG7actY
+LZsbhsaUMda2V/E1ll7bZ5/bR9r2PnUaR+rNebRdr/Nd+47JdGl5+1w3GjPuxjDL5vzbV/pvDFdt
+0j518671bsXa91fXqzZPrfPaR+faufd955H3V/Pr+znPtn3p9d44iTHjrvPLeDXO+zWmK+u0eel4
+c6z0sc63NuvazLgaU+rOONIm/c0+2n/atzwGs//WWa+zzq02dU3fue/8Zo7PsRtDY51jzPvZfpbP
+GGe/t+Kb9XPf+BJH7vs8x5v9rvGu/a2xrc+pv/Yx+8/6XbWpa/N1trk1146zxujZ5kUOyAE5IAce
+kQOfHGAe0eHJfeRDPDcHXzLWfvRzzThXm5MvOb6+/YJ4bQ50E5pN7Wv7enT7q432o8fQ38t+htbf
+fRxf5siNmxyQA3Lgdg58dweYbMr6N4lfOjEyTsbLZssB5nYSful10P/L7B1gXub2PedbD5Zf6y+K
+vmdrc/fzKQfkwPecA9/VASYL3b8dzH8N4msuvAOMXzRfM98eMZYDjJx9RB7pQx7JATkgB+TAo3Pg
+zdu3bz/4w0AOyAE5IAfkgByQA3JADsiBU3Pg3bt3H//x4Z8DzAf/IUCAAAECBAgQIECAwIECf//9
+9wcHmAMXRkgECBAgQIAAAQIECOwCDjC7iRICBAgQIECAAAECBA4VcIA5dGGERYAAAQIECBAgQIDA
+LuAAs5soIUCAAAECBAgQIEDgUAEHmEMXRlgECBAgQIAAAQIECOwCDjC7iRICBAgQIECAAAECBA4V
+cIA5dGGERYAAAQIECBAgQIDALuAAs5soIUCAAAECBAgQIEDgUAEHmEMXRlgECBAgQIAAAQIECOwC
+DjC7iRICBAgQIECAAAECBA4VcIA5dGGERYAAAQIECBAgQIDALuAAs5soIUCAAAECBAgQIEDgUAEH
+mEMXRlgECBAgQIAAAQIECOwCDjC7iRICBAgQIECAAAECBA4VcIA5dGGERYAAAQIECBAgQIDALuAA
+s5soIUCAAAECBAgQIEDgUAEHmEMXRlgECBAgQIAAAQIECOwCDjC7iRICBAgQIECAAAECBA4VcIA5
+dGGERYAAAQIECBAgQIDALuAAs5soIUCAAAECBAgQIEDgUAEHmEMXRlgECBAgQIAAAQIECOwCDjC7
+iRICBAgQIECAAAECBA4VcIA5dGGERYAAAQIECBAgQIDALuAAs5soIUCAAAECBAgQIEDgUAEHmEMX
+RlgECBAgQIAAAQIECOwCDjC7iRICBAgQIECAAAECBA4VcIA5dGGERYAAAQIECBAgQIDALuAAs5so
+IUCAAAECBAgQIEDgUAEHmEMXRlgECBAgQIAAAQIECOwCDjC7iRICBAgQIECAAAECBA4VcIA5dGGE
+RYAAAQIECBAgQIDALuAAs5soIUCAAAECBAgQIEDgUAEHmEMXRlgECBAgQIAAAQIECOwCDjC7iRIC
+BAgQIECAAAECBA4VcIA5dGGERYAAAQIECBAgQIDALuAAs5soIUCAAAECBAgQIEDgUAEHmEMXRlgE
+CBAgQIAAAQIECOwCDjC7iRICBAgQIECAAAECBA4VcIA5dGGERYAAAQIECBAgQIDALuAAs5soIUCA
+AAECBAgQIEDgUAEHmEMXRlgECBAgQIAAAQIECOwCDjC7iRICBAgQIECAAAECBA4VcIA5dGGERYAA
+AQIECBAgQIDALuAAs5soIUCAAAECBAgQIEDgUAEHmEMXRlgECBAgQIAAAQIECOwCDjC7iRICBAgQ
+IECAAAECBA4VcIA5dGGERYAAAQIECBAgQIDALuAAs5soIUCAAAECBAgQIEDgUAEHmEMXRlgECBAg
+QIAAAQIECOwCDjC7iRICBAgQIECAAAECBA4VcIA5dGGERYAAAQIECBAgQIDALuAAs5soIUCAAAEC
+BAgQIEDgUAEHmEMXRlgECBAgQIAAAQIECOwCDjC7iRICBAgQIECAAAECBA4VcIA5dGGERYAAAQIE
+CBAgQIDALuAAs5soIUCAAAECBAgQIEDgUAEHmEMXRlgECBAgQIAAAQIECOwCDjC7iRICBAgQIECA
+AAECBA4VcIA5dGGERYAAAQIECBAgQIDALuAAs5soIUCAAAECBAgQIEDgUAEHmEMXRlgECBAgQIAA
+AQIECOwCDjC7iRICBAgQIECAAAECBA4VcIA5dGGERYAAAQIECBAgQIDALuAAs5soIUCAAAECBAgQ
+IEDgUAEHmEMXRlgECBAgQIAAAQIECOwCDjC7iRICBAgQIECAAAECBA4VcIA5dGGERYAAAQIECBAg
+QIDALuAAs5soIUCAAAECBAgQIEDgUAEHmEMXRlgECBAgQIAAAQIECOwCDjC7iRICBAgQIECAAAEC
+BA4VcIA5dGGERYAAAQIECBAgQIDALuAAs5soIUCAAAECBAgQIEDgUAEHmEMXRlgECBAgQIAAAQIE
+COwCDjC7iRICBAgQIECAAAECBA4VcIA5dGGERYAAAQIECBAgQIDALuAAs5soIUCAAAECBAgQIEDg
+UAEHmEMXRlgECBAgQIAAAQIECOwCDjC7iRICBAgQIECAAAECBA4VcIA5dGGERYAAAQIECBAgQIDA
+LuAAs5soIUCAAAECBAgQIEDgUAEHmEMXRlgECBAgQIAAAQIECOwCDjC7iRICBAgQIECAAAECBA4V
+cIA5dGGERYAAAQIECBAgQIDALuAAs5soIUCAAAECBAgQIEDgUAEHmEMXRlgECBAgQIAAAQIECOwC
+DjC7iRICBAgQIECAAAECBA4VcIA5dGGERYAAAQIECBAgQIDALuAAs5soIUCAAAECBAgQIEDgUAEH
+mEMXRlgECBAgQIAAAQIECOwCDjC7iRICBAgQIECAAAECBA4VcIA5dGGERYAAAQIECBAgQIDALuAA
+s5soIUCAAAECBAgQIEDgUAEHmEMXRlgECBAgQIAAAQIECOwCDjC7iRICBAgQIECAAAECBA4VcIA5
+dGGERYAAAQIECBAgQIDALuAAs5soIUCAAAECBAgQIEDgUAEHmEMXRlgECBAgQIAAAQIECOwCDjC7
+iRICBAgQIECAAAECBA4VcIA5dGGERYAAAQIECBAgQIDALuAAs5soIUCAAAECBAgQIEDgUAEHmEMX
+RlgECBAgQIAAAQIECOwCDjC7iRICBAgQIECAAAECBA4VcIA5dGGERYAAAQIECBAgQIDALuAAs5so
+IUCAAAECBAgQIEDgUAEHmEMXRlgECBAgQIAAAQIECOwCDjC7iRICBAgQIECAAAECBA4VcIA5dGGE
+RYAAAQIECBAgQIDALuAAs5soIUCAAAECBAgQIEDgUAEHmEMXRlgECBAgQIAAAQIECOwCDjC7iRIC
+BAgQIECAAAECBA4VcIA5dGGERYAAAQIECBAgQIDALuAAs5soIUCAAAECBAgQIEDgUAEHmEMXRlgE
+CBAgQIAAAQIECOwCDjC7iRICBAgQIECAAAECBA4VcIA5dGGERYAAAQIECBAgQIDALuAAs5soIUCA
+AAECBAgQIEDgUAEHmEMXRlgECBAgQIAAAQIECOwCDjC7iRICBAgQIECAAAECBA4VcIA5dGGERYAA
+AQIECBAgQIDALuAAs5soIUCAAAECBAgQIEDgUAEHmEMXRlgECBAgQIAAAQIECOwCDjC7iRICBAgQ
+IECAAAECBA4VcIA5dGGERYAAAQIECBAgQIDALuAAs5soIUCAAAECBAgQIEDgUAEHmEMXRlgECBAg
+QIAAAQIECOwClweYt2/ffvCHgRyQA3JADsgBOSAH5IAckAMn5sC7d+8+vH///p8/b3rj+l8QDhzk
+gByQA3JADsgBOSAH5MC5OeAA87+TnCQ9N0mtjbWRA3JADsgBOSAH5IAcaA44wDjAfPznuCaFq18Q
+ckAOyAE5IAfkgByQA6fmgAOMA4wDjByQA3JADsgBOSAH5IAc+GZywAFGsn4zyXrq3wKIy99QyQE5
+IAfkgByQA3Lg6+XAfwC/9jkC0MC2XQAAAABJRU5ErkJggg==
+------=_Part_8_431892443.1624477585058
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/3df31e0ab80514f275add3f56989fda9
+
+iVBORw0KGgoAAAANSUhEUgAAAKkAAAA6CAYAAADLJ3nCAAAEEElEQVR4Ae2cy27aQBSG8055kGza
+PkTLe+Q52LZdsomiRKpEpdAL5Na0uakVAZKWQCK1LNgw1Y96rOMbJiXgmZx/JGt8Gdtn/v/jeAzG
+a46FCniuwJrn8TE8KuAIKSHwXoEUpL//jNz1z7430+3wznsRGeByFUhB2rm+cSdnF67d7ZU+Xf5o
+T2NZrgQ8uu8KZEIKUH0oyOr4wLDYVoCQ2vY/iN4T0iBssh1kIaRbW1tufX09NlUqlalqGxsb0fpO
+pxNTcnNzc7pN2rZaraht8nixHZ1zOBbaPHv+wn1sHSQ3c9mYAjMhBWBJoLAs4GlIZZ3o9xBIcUwN
+OSEVFVlDgVxIBTIAVK1WY2phG4qGFO2QdaXI/gKvzqQCpF6nz0FIRUXWUCAT0q9n51EG1fAkJRNI
+pQaoUuaBFG2xT/KDQEhFRdZQIBPSd/X3ETyS9bLkEjgBsgwNJMvOA6nOpDoLE9Iste2uezRIBSxk
+RcA3C1LJnlIDdl3kWLxx0qrYnX80SCEhMirAA3QynzUmFThRS+bVFhBSrQbnMyH93DqILvfzjEl1
+GxkCSJ0FKSCcVWQYgEy6f3wyqym3GVAgE1L8LCqQIdvp8SI0EfCkjYZUAJNsKW31+iJIZajw8lWF
+P4sagLCoi7mQyiVXYNO1gJcFKU4okGEfaVsEadb5Xr95S0iLHDSwPRdS6Tsg04BiXjJnHqTYV/b5
+X0hxDj5gIi7YrgshLVMeQlqm+v6cOwXpVe/atTs9Nx6PS5/u7u/d8bfz0uPwQQtLMSQ/HilIzy+/
+uw/NfffJh6m1P33ApNlsOk42NNjb23OTySTGaQrS9lXHHX45Kf2pfPlnwM2v21jAXHjaCjQajWJI
++/2+u7jg0/BPGwV/e0dI/fWGkf1TgJASBe8VIKTeW8QACSkZ8F4BQuq9RQyQkJIB7xUgpN5bFA9w
+NBq53d3d+MonvkRIAzO42+26o6OjwKJeLFxCuph+K98bgAJUS4WQBuY2LvW45FsqhDQgty2OR2EP
+IQ0IUovjUa8hxdirVqtFU1ksDQaDKAbEU+Z4EJognjKL9mRVN3DMpGU6/sBzAxCLhZAG4joyKMyy
+WAhpIK7jeV6rz/QS0kAgtRwmIbXsfiB9XwjS5J2vvvPD/Pb2duzOWG/f2dnJ3ZZ1g5C829fHKpoP
+IY56vT5TD/2twjJ1x48FeXoCFl2K4sAf6PKOVbQ+6VnhH/H4HydtDedXrcBCmXTVwfJ8NhUgpDZ9
+D6rXhDQou2wGS0ht+h5Ur+eG9PT0lO9f8uBdWJbe/yR9nQvS4XDI9y7x3VOlMlD4FVRQ1wYGa0KB
+1AvLTPSanQxKAUIalF02gyWkNn0PqteENCi7bAZLSG36HlSvCWlQdtkMlpDa9D2oXv8FGa0lmDY9
+XucAAAAASUVORK5CYII=
+------=_Part_8_431892443.1624477585058
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/41c8cafb7d7e991c39de6a35c9482ef0
+
+iVBORw0KGgoAAAANSUhEUgAAAQsAAAA0CAYAAACdDh2eAAAEsUlEQVR4Ae2d4U3kMBCFrycKoRE6
+oADqoAxqAEELSCBRAxLSnt5Kb/XwJSET9lhW81lanLXH4/HnzIv3B8qfHQUCEIDACgJ/VthgAgEI
+QGCHWHATQAACqwh8KRaXl5e7i4uLfz5qP3XJ2J6enj6Fc3d3d4j5UwdfIACBTQQ2i4UFZEzSpShu
+bm72CXx7e7tktqpP8zoG1fKd5X+LhYWqsv6Mj2sInBuB1WKRCZ6JqERdW5xg6Wvt2NHOwnN1dbUX
+jfGkkzGOY7/7/fX19SBUiMV3aTL+XAhsEgstLpNR15lAfuIrkVWm+mSj9vTjcWvExLZ5wsjETb/j
+/Pqexb5cuy99+Pr6+vogFLaXUOUcjiNj85weY3/jWPebnWOhhsCpCWwWCwXuG1vJnYnhdtU6AWQi
+ZZ/aNTbbfK1kmiuey6cJny7yp4iT0f6y9rhcQ/brWmXKx7HEwvMpFq/Hba5zPXMsaIfATxE4mliM
+AWeiuU+JoURYOjnkzwuPG2vbOJmm5so2XatkmxLUfvIp7hhlm/b2IT8pfvIz15YiMJ4scs69g/iT
+80YzlxA4KYGjioUTzU9G116h+1MsMvFsr3opmWy3lKhOOM2ZxWPV7xOJ27JWv32oPUvGvBTDkljI
+dxazyRjGedOeawj8NIHNYpE/H5QUmXhKpkwUL8oJkWLh5HBS2++cWGQCe2zW42nDfh2DbeXHMXuM
+bVznXG5TfWyxcByKbY5dzs81BE5BYJNYZBI5qS0EftL6iK8EcLGNxSKTbrSxX7e7zsRy4o+1bDNG
+x5Rtmjtj1HcXi0fau091xm3f2aZxKhY+i4DaHKtt1GYu9pVx7R3xBwK/gMBqsfBNPtZeg2/4sV/f
+XcZEf3h4OCTPOG5OLGxnwbFvJZr7dJ2J7nbX9p1j3Kfa/enD87hOe61dZYmBxcjjpsTCfVl7PmoI
+nJrAZrEYkzWfrEqaqURLGyWEvqednqh+qjphE9DUkzr7nawam37zevQ7xqS4ZK+S43Kesc9ikb7U
+lmKkPhULgedQ2zhuad69E/5A4AQEvhSLE8TElBCAwC8kMCsWHx8fu/f3dz4w4B5odg8o96fKrFjo
+aHx/f797fHzkAwPugSb3gHL+5eVlSivm/0VdYjE3aNITjRCAwNkTWMr7xZMFYnH2e88CIFAigFiU
+cGEMgb4EEIu+e8/KIVAigFiUcGEMgb4EEIu+e8/KIVAigFiUcGEMgb4EEIu+e8/KIVAigFiUcGEM
+gb4EEIu+e8/KIVAigFiUcGEMgb4EEIu+e8/KIVAigFiUcGEMgb4EEIu+e8/KIVAigFiUcGEMgb4E
+EIu+e8/KIVAigFiUcGEMgb4EEIu+e8/KIVAigFiUcGEMgb4EEIu+e8/KIVAigFiUcGEMgb4EEIu+
+e8/KIVAigFiUcGEMgb4EEIu+e8/KIVAigFiUcGEMgb4EEIu+e8/KIVAisFksnp+fec9ls/dc8n7b
+3u/3Vc7PvVxs9o1kb29vvN+yyfsteZ8t7/PNe0C5P1VmxWLKmDYIQKAvAcSi796zcgiUCCAWJVwY
+Q6AvAcSi796zcgiUCCAWJVwYQ6AvAcSi796zcgiUCCAWJVwYQ6Avgb9E+za4CSz5DQAAAABJRU5E
+rkJggg==
+------=_Part_8_431892443.1624477585058
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/f70f75a344f79f7fdfb318ce7bbec704
+
+iVBORw0KGgoAAAANSUhEUgAAAYAAAAAzCAYAAACe7t/QAAAEfklEQVR4nO3cv0orTRzG8ceXU2lj
+BG2ylVewxQruDdiJKVLbaCUklUVIJQiSOqIgxCa2QQw2sjewhSmCF2BjAmIKKy1scgrZYTfZmOWN
+/w7z/YCom5nfjqeYJzszJ3PD4XAoAIB1/vvpAQAAfgYBAACWGguAQqEgz/PGvprN5qfdtNlsyvM8
+FQoFSVKpVFIQBDPV7Ha7Y2OO6s+qVqvJ8zyVSqVM7YMgMGMAgN/qT9aG9XpdkrS9vT3zTS8vL9Vo
+NPT09GQmyePj4/9dr9lsmvEBALKZGADlctlM9tEkfXt7+ykBcHV1ZX7e2NiYud7l5aUkyff9RJDU
+arWZa0tSpVJRpVL5lFoA8FtkegLwfV9hGJrfgyBQtVpNtIkCo9/va2trK7XO0dGRJE3sG0mr0Wg0
+5LpuluEa8Uk7S820Nu12WxcXF2q1WiZg0tqNhg8A/HZTN4H7/b6Z/NfW1iRJj4+PY+3q9frUdfyV
+lZWpfYMgSA2Q3d1ddbvd1Lrr6+uSpDAM5Xne2Diy1Ox2uxODa9RgMBi7Fobhpz1xAMB3mBgA9Xpd
+nueZSdH3ffMufXt7W51Ox3wVi0VJ0vX1tfL5fOK1SLlcluu6H/aVpNPTU3O/qI3v+5Kk8/Pz1LFW
+KhXTRnp/wvA8z0zuWWpG3x3HMW2iJ5ZRrusm/oaoXavVmvTPCQC/TqYlIMdxEssbHy3zxEWncOLh
+Ma1vr9eTJO3s7Jhrm5ubCsMwsQw1KhpfoVAwNXZ3d9XpdDLVjL4fHByYNh/tT8TvAwD/oolPAOVy
+WZ1OR47jqNfrJY5ARhN49G65XC6P9a/Vaur1emPhkaXvLK6urhLv3CctG82iVCqZyb/dbqvRaHz6
+PQDgq03dA4jeEYdhqCAI1O/3zWvRaZ7oFE6k2Wya5ZCTkxNzPUtfx3EkJZd7ouWh+DJP3LTz+Vlq
+Rm3iTwCjf2/k4eFB0vsmcj6f183NzYf3B4DfaOoSkOu6KhaLarVaqlarOjs7M6+l/UenbrebOJMf
+X+7Z39//sK8k7e3tqVqtmg3duPgSTtzDw0NqPcdx5LpupppRm16vl2jTbrdT7ym9LzEBwL8q00dB
+xI9THh4eJpZYisWi2ciVpLu7u4l1lpaWPuwrva+7py2ptNvticdAo1NAcb7vm6eMLDXT2jiOo3w+
+P9Yv/lTjOM7EzWIA+M3m+DRQALATHwYHAJZK7AHc39//1DgAAF8kl8spl8uNXU8EwGAw0Orq6rcN
+CgDwtZ6fn/Xy8jI9ACRpeXn5WwYFAPh6b29vmrTVyx4AAFiKAAAASxEAAGApAgAALEUAAIClCAAA
+sBQBAACWIgAAwFIEAABYigAAAEsRAABgKQIAACxFAACApQgAALAUAQAAliIAAMBSBAAAWIoAAABL
+EQAAYCkCAAAsRQAAgKUIAACwFAEAAJYiAADAUgQAAFjqz+iF+/v7nxgHAOALvL6+anFxMfW1ueFw
+OIx+GQwG3zUmAMA3mZ+f18LCwtj1RAAAAOzBHgAAWIoAAABLEQAAYCkCAAAs9Re4pu34KnCl/QAA
+AABJRU5ErkJggg==
+------=_Part_8_431892443.1624477585058
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/3efe46098cee833194b9ab95c5d8147e
+
+iVBORw0KGgoAAAANSUhEUgAAAy0AAACICAYAAADqKQTGAAAOdklEQVR4nO3dfYyV1Z0H8B/LhXSI
+mTJlRhhWG7Go24GWLi8SExyoK6IQdRV23a1JS0AwxJTGGtdUV4xa26hpN7Uxxhcm2qRVs6LJUkeR
+bgvTSRMKzC7qwCoUWnAZ8A5cDGauW0xm/xju41wG5e06c8Z+Pskk97nP85x7bnLO3Pt9nnPOHXL4
+8OHuAAAASFTuww8/jLPOOityudxA1wUAACDz/vvvR8TR0PLU81vi2V/uHOAqQf+59rL6eO/97lj3
++30DXRXgFOi7pE4bhcq49rL6+FrD2XHxpLEREfFXA1wfAACATyS0AAAASRNaAACApAktAABA0oQW
+AAAgaUILAACQtDMKLc2Pz4lbvtHQ5/mV3780Zk4bcyZFQ7LWPnFln79nHmgc6GoBJ2nBFedF82Oz
+Y0xtVb+95i3//OW4/9uTK1rmmNqqaH5sdkwYP7Ki5TJwVj8yKxonn33cfU+smB7zL//iKZd5uudB
+as74Tsu8mefGhPE1lagLDBo/eHJLzF76ava3992uWH5j3wD/aVt+Y0P88DtT+/11YTC7asY5sXnr
+gZgxefQpndf82OyYOdUFOQavZf94Ydy77KsDXQ04LWccWja3d8Z3F06sRF1g0Hrtd/8bV890JQtS
+V7or8dwrO+OqGef02+s++uy2uPunbf32enz2LL1vQ6z61e5+Ow9SkzvTAp5r3hnfXTgxFswZFy+s
+2XXcY275RkPMm3luRES8vH5PPPqLrRHRc2u76YHGaHrx7Vh0/YUREdH04tsREWXbvcttfnxO9vjB
+p7bE+o1+cZY07M13ZY9vmDMubpp/UbZ960Mb4s0dhaivGxE/e6AxVq/fHVfP/GL84Mkt8ZuNHfH1
+afVx55JJ2fGzl74aEdHn+IiITe2d8b2fbIob5ozLnvvhd6bG936yKSJ6hq+VlMov6b3vqVVvxfO9
++tbyGxv6vMbxziu9FxiMZk2rj1da34n2HYcioifElB4vuOK8uGrGObF4RWtERMycOibuWPyVmLts
+bay8b0ZERNyx+CsREbF+U89nT/Njs7Oyb//Rxqys+789OfZ1FmNeY89dnX2dxRhTWxV3/7QtVt43
+I+rryoemNb20PV547Y/ZuVMaRmX75i5bmz1ecMV5sei6CyIi4uWWd/q8v4+rD4PfEyumx5rfdcSq
+X+2Oe5d9NV7ffigWXnN+RER0dBZjxaOvx5P3TM+2l963oey8iIi5M3p+WfzeZV+Nex57PSJ6hqSV
+PPz01mhpe7e/3hKckopMxP/x02/GousvPO744AVzxsXkhlEx9+Y1MffmNTFv5rmxYM64smNGj6qK
+uTeviQef2hKLrr+wz3bJyu9fGi+v3xNzb14Ti+5qiTtummRoGklY+PcXxOatnRERMXF8Tdw0/6Js
+6Njq9bvjxnlfKjt+f2cxZi99NX6zsSMmjq+JO5dMilsf2hCzl74aT61667hzZGYvfTW+eVdLTJ1Q
+GxPH18Tza3bF6vW7ywLGM0cDTunYO5dMiolH+8gPvzM1nlr1VrbvpvkXRX3diIjoCVlTGmqzOpee
+K5VZOu8HT26Jf/uX6dl5MNjMazwnWtv2R0TEK63vxKxp9Sd1XinIPLjyjSywrLxvRjS9tD3mLlsb
+D658Ix6+bVrZ5+DkL4+KucvW9rnDsnhFa8xdtjY7LyKywLLgivMiIrL9Hfli9tyE8SNj0XUXxKK7
+W8uCTMmJ6sNny8Jrzo+rl6+Lq5evi/raqnjynull28fOjVn1q93R3Lo32rYdzALLEyumR3Pr3rh6
++bpYcu+GuH1hQzSc//mBeDtwQhUJLe07CrG5vTPmXzGuz76rLj0nXvntR1eDml58O666tPyW/Lrf
+91wB6Cz8X0RErHptV9n2mNqqmDC+JurrRmT79nUWY3N7Z8y6+OQ+cKCS7lwyqWwifkTEIz/vuYP4
+5o5C9sU/IqK+dkSMPbv8S377Hw5ljy+bXh+b2juzuxctbftjbN2ILGxERPx6Q08f6Th6N6eu5nN9
+6jRxfE2MrRsR/370y09Hvis2tXfGZdN7+khHZ1d296cj3xWzl76alTe38dxobtmTlfW9n2yK59fs
+yspsOfol7zcbO2JvvisaT3EuAKRg5tQx2V2PiIjWtv0xr/Gc0/piP2H8yKivq8oC0PpN+6IjXyyb
+J9O27cAJy7hj8Vdi0d2t2XMvvPbHspBTX1cVo0f11G/WtPqy+q9a+8dTqg+fLc2te7PHHZ3FePo/
+dpZt132h7+dEbw3nfz7qa6vipf/s+d+/70Ax2rYdjJlTtRnSdMbDw0oe/cXWaHqgMQsgJfV1IyJ/
+sJht9358OpqOuQL98vo9H3MkfHqOHXZ1rN7DqTa1d56wvKkTasvOORM/O6aPrF7fM5b5kZ9vjfra
+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
+------=_Part_8_431892443.1624477585058--

@@ -1,0 +1,852 @@
+Date: Wed, 2 Jun 2021 20:06:08 +0000 (UTC)
+Message-ID: <529996403.135.1622664368816@5fe47695f1d9>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_134_256435628.1622664368816"
+
+------=_Part_134_256435628.1622664368816
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>6.3 - CadInicio</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>6.3 - CadInicio</h1>
+    <div class=3D"Section1">
+        <p><strong>RF 8.2 Formul=C3=A1rio CadInicio</strong></p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 340.0px;">
+<col style=3D"width: 340.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><p><strong>Refer=C3=AAncia da Proposta</strong><=
+/p></td>
+<td class=3D"confluenceTd"><p><strong>RF 8.2 Formul=C3=A1rio CadInicio</str=
+ong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>Tipo de Requisito</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>[] Funcional / [ &nbsp;] N=C3=A3o Fun=
+cional / [x] De Interface</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>N=C3=ADvel de Detalhe</strong></p></t=
+d>
+<td class=3D"confluenceTd"><p><strong>Sistema</strong></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 115.0px;">
+<col style=3D"width: 644.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p><strong>Descri=C3=A7=C3=A3o:</strong></p></th=
+>
+<th class=3D"confluenceTh"><p>O formul=C3=A1rio CadInicio possui o componen=
+te TAJXPage e os bot=C3=B5es minimizar, maximizar e gerenciar, verificar Fi=
+gura 01 - Formul=C3=A1rio CadInicio e Figura 01 - <a href=3D"/wiki/spaces/H=
+1/pages/179175532" data-linked-resource-id=3D"179175532" data-linked-resour=
+ce-version=3D"11" data-linked-resource-type=3D"page">Tela Heran=C3=A7a de F=
+ormul=C3=A1rios</a></p></th>
+</tr>
+</tbody>
+</table>
+</div>
+<span class=3D"confluence-embedded-file-wrapper image-center-wrapper"><img =
+class=3D"confluence-embedded-image image-center" loading=3D"lazy" src=3D"31=
+79367728c21ada7fbd1c44b68a7275" data-image-src=3D"https://ajxautomacao.atla=
+ssian.net/wiki/download/attachments/179241223/image-20210531-184626.png?ver=
+sion=3D1&amp;modificationDate=3D1622486789356&amp;cacheVersion=3D1&amp;api=
+=3Dv2" data-height=3D"461" data-width=3D"822" data-unresolved-comment-count=
+=3D"0" data-linked-resource-id=3D"192741640" data-linked-resource-version=
+=3D"1" data-linked-resource-type=3D"attachment" data-linked-resource-defaul=
+t-alias=3D"image-20210531-184626.png" data-base-url=3D"https://ajxautomacao=
+.atlassian.net/wiki" data-linked-resource-content-type=3D"image/png" data-l=
+inked-resource-container-id=3D"179241223" data-linked-resource-container-ve=
+rsion=3D"21" data-media-id=3D"58e8142f-7082-4983-93a1-7fac3bbd9cca" data-me=
+dia-type=3D"file" width=3D"468" height=3D"262"></span>
+<p>Figura 01 - Formul=C3=A1rio CadInicio</p>
+<p></p>
+<p>Tabela 01 - Componentes </p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 83.0px;">
+<col style=3D"width: 150.0px;">
+<col style=3D"width: 115.0px;">
+<col style=3D"width: 411.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><p><strong>ID</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Componente</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Nome</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Descri=C3=A7=C3=A3o</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>01</p></td>
+<td class=3D"confluenceTd"><p>Form</p></td>
+<td class=3D"confluenceTd"><p>FrmCadInicio</p></td>
+<td class=3D"confluenceTd"><p>Formul=C3=A1rio CadInicio</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>02</p></td>
+<td class=3D"confluenceTd"><p>&nbsp;Page</p></td>
+<td class=3D"confluenceTd"><p>Page</p></td>
+<td class=3D"confluenceTd"><p>Menu na Vertical</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>08</p></td>
+<td class=3D"confluenceTd"><p>Button</p></td>
+<td class=3D"confluenceTd"><p> BtnMinimizar</p></td>
+<td class=3D"confluenceTd"><p> Bot=C3=A3o Minimizar</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>09</p></td>
+<td class=3D"confluenceTd"><p>Button</p></td>
+<td class=3D"confluenceTd"><p>BtnFechar</p></td>
+<td class=3D"confluenceTd"><p>Bot=C3=A3o Fechar</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>10</p></td>
+<td class=3D"confluenceTd"><p>Button</p></td>
+<td class=3D"confluenceTd"><p>BtnGerenciar</p></td>
+<td class=3D"confluenceTd"><p>Bot=C3=A3o Gerenciar</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<p>Tabela 02 - Propriedades do formul=C3=A1rio</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 178.0px;">
+<col style=3D"width: 579.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p><strong>Propriedade</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Valor</strong></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Name</p></td>
+<td class=3D"confluenceTd"><p>FrmCadInicio</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>BorderStyle</p></td>
+<td class=3D"confluenceTd"><p>bsNone</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Width/Height</p></td>
+<td class=3D"confluenceTd"><p>1008/681</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Color</p></td>
+<td class=3D"confluenceTd"><p>$00755B42</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Caption</p></td>
+<td class=3D"confluenceTd"><p>FrmCadInicio</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Left</p></td>
+<td class=3D"confluenceTd"><p>229</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>OldCreateOrder</p></td>
+<td class=3D"confluenceTd"><p>False</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Top </p></td>
+<td class=3D"confluenceTd"><p>5</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<p>Tabela 03 - Propriedades Componente Page</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 191.0px;">
+<col style=3D"width: 567.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p><strong>Propriedade</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Valor</strong></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Align</p></td>
+<td class=3D"confluenceTd"><p>alClient</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>alignWithMargins</p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Caption</p></td>
+<td class=3D"confluenceTd"><p>Caption</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>CaptionCursor</p></td>
+<td class=3D"confluenceTd"><p>crDefault</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Width/height</p></td>
+<td class=3D"confluenceTd"><p>1006/679</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Name</p></td>
+<td class=3D"confluenceTd"><p>page</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Font</p></td>
+<td class=3D"confluenceTd"><p>Tahoma,11,[],DEFAULT_CHARSET,clBlack</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>CaptionCursorEnabled</p></td>
+<td class=3D"confluenceTd"><p>false</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>CaptionGlowEffect</p></td>
+<td class=3D"confluenceTd"><p>(TscGlowEffect)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>CaptionHeight</p></td>
+<td class=3D"confluenceTd"><p>90</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>CaptionImageIndex</p></td>
+<td class=3D"confluenceTd"><p>-1</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>CaptionLayout</p></td>
+<td class=3D"confluenceTd"><p>blGlyphTop</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>ChangePageWithItemSelect</p></td>
+<td class=3D"confluenceTd"><p>false</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>CustomBackgroundImageIndex</p></td>
+<td class=3D"confluenceTd"><p>0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>DividerColor</p></td>
+<td class=3D"confluenceTd"><p>clNone</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>DragCursor</p></td>
+<td class=3D"confluenceTd"><p>crDefault</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>fluentUIOpaque</p></td>
+<td class=3D"confluenceTd"><p>False</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>ItemHotColor </p></td>
+<td class=3D"confluenceTd"><p>clHighlight</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>itemSelectedColor</p></td>
+<td class=3D"confluenceTd"><p>clHighlight</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>ItemSelectedFocusedColor</p></td>
+<td class=3D"confluenceTd"><p>$009D5600</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>CaptionHeight</p></td>
+<td class=3D"confluenceTd"><p>90</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>CaptionLayout </p></td>
+<td class=3D"confluenceTd"><p>blGlyphTop</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>ItemBackgroundColor</p></td>
+<td class=3D"confluenceTd"><p>clWhite</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>itemFontHotColor</p></td>
+<td class=3D"confluenceTd"><p>clRed</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>itemFontSelectedFocus </p></td>
+<td class=3D"confluenceTd"><p>$00DADADA</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>item GlowEffect</p></td>
+<td class=3D"confluenceTd"><p>TscButtonGlowEffect</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>itemHeight </p></td>
+<td class=3D"confluenceTd"><p>40</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>itemMargin </p></td>
+<td class=3D"confluenceTd"><p>10</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>itemWidth </p></td>
+<td class=3D"confluenceTd"><p>200</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>ItemHotImageIndex</p></td>
+<td class=3D"confluenceTd"><p>0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>ItemSelectedFocusedimageIndex</p></td>
+<td class=3D"confluenceTd"><p>0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>ItemSpacing</p></td>
+<td class=3D"confluenceTd"><p>10</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>itemSelectedImageIndex</p></td>
+<td class=3D"confluenceTd"><p>0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>itemsTopOffset</p></td>
+<td class=3D"confluenceTd"><p>10</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>left</p></td>
+<td class=3D"confluenceTd"><p>1</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Margins</p></td>
+<td class=3D"confluenceTd"><p>TMargins</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>MouseWheelSupport</p></td>
+<td class=3D"confluenceTd"><p>False</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>ParentFont</p></td>
+<td class=3D"confluenceTd"><p>false</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>SelectionStyle</p></td>
+<td class=3D"confluenceTd"><p>scapsColor</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>ShowCaption</p></td>
+<td class=3D"confluenceTd"><p>True</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>TabOrder</p></td>
+<td class=3D"confluenceTd"><p>0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>TabStop</p></td>
+<td class=3D"confluenceTd"><p>True</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Top</p></td>
+<td class=3D"confluenceTd"><p>1</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Touch</p></td>
+<td class=3D"confluenceTd"><p>(TTouchManager)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>wallpaperindex</p></td>
+<td class=3D"confluenceTd"><p>0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>wallpapers</p></td>
+<td class=3D"confluenceTd"><p>FrmImagens.PngPage</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_134_256435628.1622664368816
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/3179367728c21ada7fbd1c44b68a7275
+
+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
+r6HmknKeDDDAAAMMZBoQbFK3eXVXBwSbzOHn0nPuDDDAAAMM9DIg2NR66yG1A4JNr6HmknKeDDDA
+AAMMZBoQbFK3eXVXBwSbzOHn0nPuDDDAAAMM9DIg2NR66yG1A4JNr6HmknKeDDDAAAMMZBoQbFK3
+eXVXBwSbzOHn0nPuDDDAAAMM9DIg2NR66yG1A4JNr6HmknKeDDDAAAMMZBoQbFK3eXVXBwSbzOHn
+0nPuDDDAAAMM9DIg2NR66yG1A4JNr6HmknKeDDDAAAMMZBoQbFK3eXVXBwSbzOHn0nPuDDDAAAMM
+9DIg2NR66yG1A4JNr6HmknKeDDDAAAMMZBoQbFK3eXVXBwSbzOHn0nPuDDDAAAMM9DIg2NR66yG1
+A4JNr6HmknKeDDDAAAMMZBoQbFK3eXVXBwSbzOHn0nPuDDDAAAMM9DIg2NR66yG1A4JNr6HmknKe
+DDDAAAMMZBoQbFK3eXVXBwSbzOHn0nPuDDDAAAMM9DIg2NR66yG1A4JNr6HmknKeDDDAAAMMZBoQ
+bFK3eXVXBwSbzOHn0nPuDDDAAAMM9DIg2NR66yG1A4JNr6HmknKeDDDAAAMMZBoQbFK3eXVXBwSb
+zOHn0nPuDDDAAAMM9DIg2NR66yG1A4JNr6HmknKeDDDAAAMMZBoQbFK3eXVXBwSbzOHn0nPuDDDA
+AAMM9DIg2NR66yG1A4JNr6HmknKeDDDAAAMMZBoQbFK3eXVXBwSbzOHn0nPuDDDAAAMM9DIg2NR6
+6yG1A4JNr6HmknKeDDDAAAMMZBoQbFK3eXVXBwSbzOHn0nPuDDDAAAMM9DIg2NR66yG1A4JNr6Hm
+knKeDDDAAAMMZBoQbFK3eXVXBwSbzOHn0nPuDDDAAAMM9DIg2NR66yG1A4JNr6HmknKeDDDAAAMM
+ZBoQbFK3eXVXBwSbzOHn0nPuDDDAAAMM9DIg2NR66yG1A4JNr6HmknKeDDDAAAMMZBoQbFK3eXVX
+BwSbzOHn0nPuDDDAAAMM9DIg2NR66yG1A4JNr6HmknKeDDDAAAMMZBoQbFK3eXVXBwSbzOHn0nPu
+DDDAAAMM9DIg2NR66yG1A4JNr6HmknKeDDDAAAMMZBoQbFK3eXVXBwSbzOHn0nPuDDDAAAMM9DIg
+2NR66yG1A4JNr6HmknKeDDDAAAMMZBoQbFK3eXVXBwSbzOHn0nPuDDDAAAMM9DIg2NR66yG1A4JN
+r6HmknKeDDDAAAMMZBoQbFK3eXVXBwSbzOHn0nPuDDDAAAMM9DIg2NR66yG1A4JNr6HmknKeDDDA
+AAMMZBoQbFK3eXVXBwSbzOHn0nPuDDDAAAMM9DIg2NR66yG1A4JNr6HmknKeDDDAAAMMZBoQbFK3
+eXVXBwSbzOHn0nPuDDDAAAMM9DIg2NR66yG1A4JNr6HmknKeDDDAAAMMZBoQbFK3eXVXBwSbzOHn
+0nPuDDDAAAMM9DIg2NR66yG1A4JNr6HmknKeDDDAAAMMZBoQbFK3eXVXBwSbzOHn0nPuDDDAAAMM
+9DIg2NR66yG1A4JNr6HmknKeDDDAAAMMZBoQbFK3eXVXBwSbzOHn0nPuDDDAAAMM9DIg2NR66yG1
+A4JNr6HmknKeDDDAAAMMZBoQbFK3eXVXBwSbzOHn0nPuDDDAAAMM9DIg2NR66yG1A4JNr6HmknKe
+DDDAAAMMZBoQbFK3eXVXBwSbzOHn0nPuDDDAAAMM9DIg2NR66yG1A4JNr6HmknKeDDDAAAMMZBoQ
+bFK3eXVXBwSbzOHn0nPuDDDAAAMM9DIg2NR66yG1A4JNr6HmknKeDDDAAAMMZBoQbFK3eXVXBwSb
+zOHn0nPuDDDAAAMM9DIg2NR66yG1A4JNr6HmknKeDDDAAAMMZBoQbFK3eXVXBwSbzOHn0nPuDDDA
+AAMM9DIg2NR66yG1A4JNr6HmknKeDDDAAAMMZBoQbFK3eXVXBwSbzOHn0nPuDDDAAAMM9DIg2NR6
+6yG1A4JNr6HmknKeDDDAAAMMZBoQbFK3eXVXBwSbzOHn0nPuDDDAAAMM9DIg2NR66yG1A4JNr6Hm
+knKeDDDAAAMMZBoQbFK3eXVXBwSbzOHn0nPuDDDAAAMM9DIg2NR66yG1A4JNr6HmknKeDDDAAAMM
+ZBoQbFK3eXVXBwSbzOHn0nPuDDDAAAMM9DIg2NR66yG1A4JNr6HmknKeDDDAAAMMZBoQbFK3eXVX
+BwSbzOHn0nPuDDDAAAMM9DIg2NR66yG1A4JNr6HmknKeDDDAAAMMZBoQbFK3eXVXBwSbzOHn0nPu
+DDDAAAMM9DIg2NR66yG1A4JNr6HmknKeDDDAAAMMZBoQbFK3eXVXBwSbzOHn0nPuDDDAAAMM9DIg
+2NR66yG1A4JNr6HmknKeDDDAAAMMZBoQbFK3eXVXBwSbzOHn0nPuDDDAAAMM9DIg2NR66yG1A4JN
+r6HmknKeDDDAAAMMZBoQbFK3eXVXBwSbzOHn0nPuDDDAAAMM9DIg2NR66yG1A4JNr6HmknKeDDDA
+AAMMZBoQbFK3eXVXBwSbzOHn0nPuDDDAAAMM9DIg2NR66yG1A4JNr6HmknKeDDDAAAMMZBoQbFK3
+eXVXBwSbzOHn0nPuDDDAAAMM9DIg2NR66yG1A4JNr6HmknKeDDDAAAMMZBoQbFK3eXVXBwSbzOHn
+0nPuDDDAAAMM9DIg2NR66yG1A4JNr6HmknKeDDDAAAMMZBoQbFK3eXVXBwSbzOHn0nPuDDDAAAMM
+9DIg2NR66yG1A4JNr6HmknKeDDDAAAMMZBoQbFK3eXVXBwSbzOHn0nPuDDDAAAMM9DIg2NR66yG1
+A4JNr6HmknKeDDDAAAMMZBoQbFK3eXVXBwSbzOHn0nPuDDDAAAMM9DIg2NR66yG1A4JNr6HmknKe
+DDDAAAMMZBoQbFK3eXVXBwSbzOHn0nPuDDDAAAMM9DIg2NR66yG1A4JNr6HmknKeDDDAAAMMZBoQ
+bFK3eXVXBwSbzOHn0nPuDDDAAAMM9DIg2NR66yG1A4JNr6HmknKeDDDAAAMMZBoQbFK3eXVXBwSb
+zOHn0nPuDDDAAAMM9DIg2NR66yG1A4JNr6HmknKeDDDAAAMMZBoQbFK3eXVXBwSbzOHn0nPuDDDA
+AAMM9DIg2NR66yG1A4JNr6HmknKeDDDAAAMMZBoQbFK3eXVXBwSbzOHn0nPuDDDAAAMM9DIg2NR6
+6yG1A4JNr6HmknKeDDDAAAMMZBoQbFK3eXVXBwSbzOHn0nPuDDDAAAMM9DIg2NR66yG1A4JNr6Hm
+knKeDDDAAAMMZBoQbFK3eXVXBwSbzOHn0nPuDDDAAAMM9DIg2NR66yG1A4JNr6HmknKeDDDAAAMM
+ZBoQbFK3eXVXBwSbzOHn0nPuDDDAAAMM9DIg2NR66yG1A4JNr6HmknKeDDDAAAMMZBoQbFK3eXVX
+BwSbzOHn0nPuDDDAAAMM9DIg2NR66yG1A4JNr6HmknKeDDDAAAMMZBoQbFK3eXVXBwSbzOHn0nPu
+DDDAAAMM9DIg2NR66yG1A4JNr6HmknKeDDDAAAMMZBoQbFK3eXVXBwSbzOHn0nPuDDDAAAMM9DIg
+2NR66yG1A4JNr6HmknKeDDDAAAMMZBoQbFK3eXVXBwSbzOHn0nPuDDDAAAMM9DIg2NR66yG1A4JN
+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
+AElFTkSuQmCC
+------=_Part_134_256435628.1622664368816--

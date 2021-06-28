@@ -1,0 +1,590 @@
+Date: Wed, 23 Jun 2021 19:47:12 +0000 (UTC)
+Message-ID: <2136631486.11.1624477632871@f387b9171664>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_10_799736912.1624477632870"
+
+------=_Part_10_799736912.1624477632870
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>7.2 - Neutro</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>7.2 - Neutro</h1>
+    <div class=3D"Section1">
+        <p><strong>RF 7.2 Formul=C3=A1rio Neutro</strong></p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 340.0px;">
+<col style=3D"width: 340.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><p><strong>Refer=C3=AAncia da Proposta</strong><=
+/p></td>
+<td class=3D"confluenceTd"><p><strong>RF 7.2 Formul=C3=A1rio Neutro</strong=
+></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>Tipo de Requisito</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>[] Funcional / [ &nbsp;] N=C3=A3o Fun=
+cional / [x] De Interface</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>N=C3=ADvel de Detalhe</strong></p></t=
+d>
+<td class=3D"confluenceTd"><p><strong>Sistema</strong></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 115.0px;">
+<col style=3D"width: 644.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p><strong>Descri=C3=A7=C3=A3o</strong></p></th>
+<th class=3D"confluenceTh"><p>O formul=C3=A1rio Neutro possui os bot=C3=B5e=
+s minimizar e fechar, verificar Figura 01 - Formul=C3=A1rio Neutro e Figura=
+ 01 - <a href=3D"/wiki/spaces/H1/pages/179175532" data-linked-resource-id=
+=3D"179175532" data-linked-resource-version=3D"13" data-linked-resource-typ=
+e=3D"page">Tela Heran=C3=A7a de Formul=C3=A1rios.</a></p></th>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<span class=3D"confluence-embedded-file-wrapper image-center-wrapper"><img =
+class=3D"confluence-embedded-image image-center" loading=3D"lazy" src=3D"af=
+d6860a36190784e175cba13a7755c6" data-image-src=3D"https://ajxautomacao.atla=
+ssian.net/wiki/download/attachments/179208317/image-20210601-124852.png?ver=
+sion=3D1&amp;modificationDate=3D1622551735732&amp;cacheVersion=3D1&amp;api=
+=3Dv2" data-height=3D"494" data-width=3D"1014" data-unresolved-comment-coun=
+t=3D"0" data-linked-resource-id=3D"192676305" data-linked-resource-version=
+=3D"1" data-linked-resource-type=3D"attachment" data-linked-resource-defaul=
+t-alias=3D"image-20210601-124852.png" data-base-url=3D"https://ajxautomacao=
+.atlassian.net/wiki" data-linked-resource-content-type=3D"image/png" data-l=
+inked-resource-container-id=3D"179208317" data-linked-resource-container-ve=
+rsion=3D"28" data-media-id=3D"015ad868-b2b8-4c75-8660-bfe682021b5e" data-me=
+dia-type=3D"file" width=3D"468" height=3D"227"></span>
+<p></p>
+<p></p>
+<p>Tabela 01 - Componentes</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"wide" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 79.0px;">
+<col style=3D"width: 146.0px;">
+<col style=3D"width: 148.0px;">
+<col style=3D"width: 587.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><p><strong>ID</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Componente</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Nome</strong></p></td>
+<td class=3D"confluenceTd"><p><strong>Descri=C3=A7=C3=A3o</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>01</p></td>
+<td class=3D"confluenceTd"><p>Form</p></td>
+<td class=3D"confluenceTd"><p>FrmNeutro</p></td>
+<td class=3D"confluenceTd"><p>Formul=C3=A1rio Neutro</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>02</p></td>
+<td class=3D"confluenceTd"><p>&nbsp;Button</p></td>
+<td class=3D"confluenceTd"><p>BtnFechar</p></td>
+<td class=3D"confluenceTd"><p>Bot=C3=A3o Fechar</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>08</p></td>
+<td class=3D"confluenceTd"><p>Button</p></td>
+<td class=3D"confluenceTd"><p>BtnMinimizar</p></td>
+<td class=3D"confluenceTd"><p> Bot=C3=A3o minimizar</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<p>Tabela 02 - Propriedades do formul=C3=A1rio</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 178.0px;">
+<col style=3D"width: 579.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p><strong>Propriedade</strong></p></th>
+<th class=3D"confluenceTh"><p><strong>Valor</strong></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Name</p></td>
+<td class=3D"confluenceTd"><p>FrmNeutro</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>BorderStyle</p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Width/Height</p></td>
+<td class=3D"confluenceTd"><p>1000/680</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Color</p></td>
+<td class=3D"confluenceTd"><p>clWhite</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Caption</p></td>
+<td class=3D"confluenceTd"><p>FrmNeutro</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Left</p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>OldCreateOrder</p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Top </p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_10_799736912.1624477632870
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/afd6860a36190784e175cba13a7755c6
+
+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
+CBAgQIAAAQIEWgUM+9bm5SZAgAABAgQIECBAgACBCAHDPqJGIQgQIECAAAECBAgQIECgVcCwb21e
+bgIECBAgQIAAAQIECBCIEDDsI2oUggABAgQIECBAgAABAgRaBQz71ublJkCAAAECBAgQIECAAIEI
+AcM+okYhCBAgQIAAAQIECBAgQKBVwLBvbV5uAgQIECBAgAABAgQIEIgQMOwjahSCAAECBAgQIECA
+AAECBFoFDPvW5uUmQIAAAQIECBAgQIAAgQgBwz6iRiEIECBAgAABAgQIECBAoFXAsG9tXm4CBAgQ
+IECAAAECBAgQiBAw7CNqFIIAAQIECBAgQIAAAQIEWgUM+9bm5SZAgAABAgQIECBAgACBCAHDPqJG
+IQgQIECAAAECBAgQIECgVcCwb21ebgIECBAgQIAAAQIECBCIEDDsI2oUggABAgQIECBAgAABAgRa
+BQz71ublJkCAAAECBAgQIECAAIEIAcM+okYhCBAgQIAAAQIECBAgQKBVwLBvbV5uAgQIECBAgAAB
+AgQIEIgQMOwjahSCAAECBAgQIECAAAECBFoFDPvW5uUmQIAAAQIECBAgQIAAgQgBwz6iRiEIECBA
+gAABAgQIECBAoFXAsG9tXm4CBAgQIECAAAECBAgQiBAw7CNqFIIAAQIECBAgQIAAAQIEWgUM+9bm
+5SZAgAABAgQIECBAgACBCAHDPqJGIQgQIECAAAECBAgQIECgVcCwb21ebgIECBAgQIAAAQIECBCI
+EDDsI2oUggABAgQIECBAgAABAgRaBQz71ublJkCAAAECBAgQIECAAIEIAcM+okYhCBAgQIAAAQIE
+CBAgQKBVwLBvbV5uAgQIECBAgAABAgQIEIgQMOwjahSCAAECBAgQIECAAAECBFoFDPvW5uUmQIAA
+AQIECBAgQIAAgQgBwz6iRiEIECBAgAABAgQIECBAoFXAsG9tXm4CBAgQIECAAAECBAgQiBAw7CNq
+FIIAAQIECBAgQIAAAQIEWgUM+9bm5SZAgAABAgQIECBAgACBCAHDPqJGIQgQIECAAAECBAgQIECg
+VcCwb21ebgIECBAgQIAAAQIECBCIEDDsI2oUggABAgQIECBAgAABAgRaBQz71ublJkCAAAECBAgQ
+IECAAIEIAcM+okYhCBAgQIAAAQIECBAgQKBVwLBvbV5uAgQIECBAgAABAgQIEIgQMOwjahSCAAEC
+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
+AQIECBAgQIAAAQIEWgUM+9bm5SZAgAABAgQIECBAgACBCAHDPqJGIQgQIECAAAECBAgQIECgVcCw
+b21ebgIECBAgQIAAAQIECBCIEDDsI2oUggABAgQIECBAgAABAgRaBQz71ublJkCAAAECBAgQIECA
+AIEIAcM+okYhCBAgQIAAAQIECBAgQKBVwLBvbV5uAgQIECBAgAABAgQIEIgQMOwjahSCAAECBAgQ
+IECAAAECBFoFDPvW5uUmQIAAAQIECBAgQIAAgQgBwz6iRiEIECBAgAABAgQIECBAoFXAsG9tXm4C
+BAgQIECAAAECBAgQiBAw7CNqFIIAAQIECBAgQIAAAQIEWgUM+9bm5SZAgAABAgQIECBAgACBCAHD
+PqJGIQgQIECAAAECBAgQIECgVcCwb21ebgIECBAgQIAAAQIECBCIEDDsI2oUggABAgQIECBAgAAB
+AgRaBQz71ublJkCAAAECBAgQIECAAIEIAcM+okYhCBAgQIAAAQIECBAgQKBVwLBvbV5uAgQIECBA
+gAABAgQIEIgQMOwjahSCAAECBAgQIECAAAECBFoFDPvW5uUmQIAAAQIECBAgQIAAgQgBwz6iRiEI
+ECBAgAABAgQIECBAoFXAsG9tXm4CBAgQIECAAAECBAgQiBAw7CNqFIIAAQIECBAgQIAAAQIEWgUM
++9bm5SZAgAABAgQIECBAgACBCAHDPqJGIQgQIECAAAECBAgQIECgVcCwb21ebgIECBAgQIAAAQIE
+CBCIEDDsI2oUggABAgQIECBAgAABAgRaBQz71ublJkCAAAECBAgQIECAAIEIAcM+okYhCBAgQIAA
+AQIECBAgQKBVwLBvbV5uAgQIECBAgAABAgQIEIgQMOwjahSCAAECBAgQIECAAAECBFoFDPvW5uUm
+QIAAAQIECBAgQIAAgQgBwz6iRiEIECBAgAABAgQIECBAoFXAsG9tXm4CBAgQIECAAAECBAgQiBAw
+7CNqFIIAAQIECBAgQIAAAQIEWgUM+9bm5SZAgAABAgQIECBAgACBCAHDPqJGIQgQIECAAAECBAgQ
+IECgVcCwb21ebgIECBAgQIAAAQIECBCIEDDsI2oUggABAgQIECBAgAABAgRaBQz71ublJkCAAAEC
+BAgQIECAAIEIAcM+okYhCBAgQIAAAQIECBAgQKBVwLBvbV5uAgQIECBAgAABAgQIEIgQMOwjahSC
+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
+gzMwdvz4+A+Zo7pgcDwRVgAAAABJRU5ErkJggg==
+------=_Part_10_799736912.1624477632870--
